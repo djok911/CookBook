@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0BB0D27E2E5544F8005DB89F /* CookBook/CookBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0D27C2E5544F8005DB89F /* CookBook/CookBook.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0BB0D25E2E553BD5005DB89F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		0BB0D24B2E553BD2005DB89F /* CookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB0D25D2E553BD5005DB89F /* CookBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB0D2672E553BD5005DB89F /* CookBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB0D27D2E5544F8005DB89F /* CookBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CookBook.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		0BB0D2422E553BD2005DB89F = {
 			isa = PBXGroup;
 			children = (
+				0BB0D27C2E5544F8005DB89F /* CookBook/CookBook.xcdatamodeld */,
 				0BB0D24D2E553BD2005DB89F /* CookBook */,
 				0BB0D2602E553BD5005DB89F /* CookBookTests */,
 				0BB0D26A2E553BD5005DB89F /* CookBookUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB0D27E2E5544F8005DB89F /* CookBook/CookBook.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ3WDW6VY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,6 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZ3WDW6VY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -552,6 +561,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0BB0D27C2E5544F8005DB89F /* CookBook/CookBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0BB0D27D2E5544F8005DB89F /* CookBook.xcdatamodel */,
+			);
+			currentVersion = 0BB0D27D2E5544F8005DB89F /* CookBook.xcdatamodel */;
+			path = CookBook/CookBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0BB0D2432E553BD2005DB89F /* Project object */;
 }
